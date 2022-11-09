@@ -3,12 +3,25 @@
 % !TEX root = ../tesi.tex
 
 %**************************************************************
-\chapter{Analisi dei requisiti}
+\chapter{Analisi del progetto}
 \label{cap:analisi-requisiti}
-%**************************************************************
-
 \intro{Breve introduzione al capitolo}\\
 
+
+%**************************************************************
+\section{Analisi preventiva dei rischi}
+
+Durante la fase di analisi iniziale sono stati individuati alcuni possibili rischi a cui si potrà andare incontro.
+Si è quindi proceduto a elaborare delle possibili soluzioni per far fronte a tali rischi.\\
+
+\begin{risk}{Performance del simulatore hardware}
+    \riskdescription{le performance del simulatore hardware e la comunicazione con questo potrebbero risultare lenti o non abbastanza buoni da causare il fallimento dei test}
+    \risksolution{coinvolgimento del responsabile a capo del progetto relativo il simulatore hardware}
+    \label{risk:hardware-simulator} 
+\end{risk}
+
+
+%**************************************************************
 \section{Casi d'uso}
 
 Per lo studio dei casi di utilizzo del prodotto sono stati creati dei diagrammi.
@@ -29,6 +42,8 @@ Essendo il progetto finalizzato alla creazione di un tool per l'automazione di u
 \label{uc:scenario-principale}
 \end{usecase}
 
+
+%**************************************************************
 \section{Tracciamento dei requisiti}
 
 Da un'attenta analisi dei requisiti e degli use case effettuata sul progetto è stata stilata la tabella che traccia i requisiti in rapporto agli use case.\\
